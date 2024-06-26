@@ -1,0 +1,82 @@
+
+div[name=name1]{
+    background-color: orange;
+}
+div[name~=name1]{
+    color : mediumorchid;
+}
+
+div[class^=class]{
+    background-color: darkgray;
+}
+
+div[class|=class]{
+    color: aqua;
+}
+
+div[class$=ss]{
+    font-size: 20px;
+}
+
+div[class*=i]{
+    border: 1px dotted;
+}
+/*
+클래스 속성값이 div-class인 요소들 중에서 name 속성값이
+name3이 포함되어 있는 요소에 배경색 스타일 적용
+*/
+
+.div-class[name*=name3]{
+        background-color: black;
+}
+
+#test1>h4{
+    background-color: aqua;
+}
+#test1>ul{
+    background-color: darkgray;
+}
+#test1 ul{
+    font-size: 30px;
+}
+
+#test2+div{
+    background-color: orange;
+}
+
+#test2~div{
+    color: gold;
+}
+
+.area{
+    width:100px;
+    height:100px;
+    background-color: yellowgreen;
+}
+
+#active-test:active{
+    background-color: black;
+    color : white;
+}
+
+#hover-test:hover{
+    background-color: black;
+    color : white;
+    font-size: 50px;
+}
+
+input[type=checkbox]:checked{
+    width: 100px;
+    height: 100px;
+}
+
+input[name^=user]:focus{
+    background-color: pink;
+}
+
+button:enabled{
+    background-color: red;
+}
+button:disabled{
+    background-color: white;
+}

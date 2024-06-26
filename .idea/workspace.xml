@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72a063f-7111-4526-9e5b-64a3f1daa5d9" name="변경" comment="글자관련 태그">
-      <change afterPath="$PROJECT_DIR$/CSS/01.HelloCss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/02.기본선택자.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/resources/css/01.style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/resources/css/03.style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html5/09.입력양식 관련 태그.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5/09.입력양식 관련 태그.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/03.기타선택자.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/03.기타선택자.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/resources/css/01.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/resources/css/01.style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -71,6 +70,20 @@
       <recent name="C:\JCW\frontwork\html5" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle 작업" flag="true" />
+      <visibility group="Grunt" flag="true" />
+      <visibility group="Gulp" flag="true" />
+      <visibility group="HTTP 요청" flag="true" />
+      <visibility group="Maven Goal" flag="true" />
+      <visibility group="Node.js" flag="true" />
+      <visibility group="npm" flag="true" />
+      <visibility group="yarn" flag="true" />
+      <visibility group="실행 구성" flag="true" />
+      <visibility group="최근 프로젝트" flag="true" />
+    </myKeys>
+  </component>
   <component name="RunManager">
     <configuration name="01.처음시작.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/frontwork/html5/01.처음시작.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -100,7 +113,7 @@
       <workItem from="1719209885953" duration="2434000" />
       <workItem from="1719212559779" duration="8250000" />
       <workItem from="1719277372367" duration="16971000" />
-      <workItem from="1719365967788" duration="11066000" />
+      <workItem from="1719365967788" duration="19509000" />
     </task>
     <task id="LOCAL-00001" summary="글자관련 태그">
       <option name="closed" value="true" />
