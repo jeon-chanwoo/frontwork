@@ -171,8 +171,130 @@
     <br>
     <br>
     <input type = "submit">
-
+    <input type="reset">
 </form>
+<hr>
+
+<form action="test.do">
+    <h3>체크박스(type="checkbox")</h3>
+    <p>
+        - 여러개의 값들 중 여러개를 선택하고자 할 때
+        - 서버로 value의 값이 전송됨
+    </p>
+
+    취미 :
+    <input type="checkbox" name="hobby" value="reading" id="reading">
+    <label for="reading">독서</label>&emsp;
+
+    <input type="checkbox" name="hobby" value="sports" id="sports">
+    <label for="sports">운동</label>&emsp;
+
+    <input type="checkbox" name="hobby" value="movie" id="movie">
+    <label for="movie">영화감상</label>
+
+    <br><br>
+
+    <input type="submit">&emsp;
+    <input type="reset">
+</form>
+<br>
+
+<hr>
+
+<h2>추가적인 input태그의 타입</h2>
+<form action="test.do">
+    <h3>type="color"</h3>
+    <p>
+        - 색상을 선택할 수 있는 input 타입
+    </p>
+    색상 선택 : <input type="color" name="color">
+
+    <br>
+
+    <h3>type="file"</h3>
+    <p>
+        - 첨부하고자하는 파일을 선택할 수 있는 input 타입
+    </p>
+    첨부파일 : <input type="file" name="uploadfile">
+
+    <br>
+
+    <h3>type="hidden"</h3>
+    <p>
+        - 특정값을 화면에 노출시키지 않고 서버로 전송해야하는 정보가 있을 때 사용
+    </p>
+    <input type="hidden" name="pageNum" value="3">
+
+    <br>
+
+    <h3>type="submit|reset|button"</h3>
+    <p>
+        - submit : 서버로 form안의 들어있는 모든 값들을 전송
+        - reset : form안의 값들을 초기화
+        - button : 일반버튼(사용자 정의 버튼)
+    </p>
+    <input type="submit">
+    <input type="reset">
+    <input type="button" value="일반버튼">
+
+    <br>
+
+    <h3>button[type="submit|reset|button"]</h3>
+    <button type="submit">전송</button> <!-- button의 기본값 submit -->
+    <button type="reset">초기화</button>
+    <button type="button">일반버튼</button>
+    <br><br>
+    <button>type을 생략하면 submit버튼</button>
+
+
+    <br><br>
+
+    <input type="submit">&emsp;
+    <input type="reset">
+</form>
+
+<form action="test.do">
+    국적 :
+    <select name="national">
+        <option value="ko">한국</option>
+        <option value="eu">영국</option>
+        <option value="ru">러시아</option>
+        <option value="etc">기타</option>
+    </select>
+
+<br>
+<br>
+점심메뉴선택 :
+<select name="menu">
+    <option value="bab">밥</option>
+    <option value="g">국</option>
+    <option value="b">반찬</option>
+    <option value="w">물</option>
+</select>
+
+수강신청 :
+<select>
+    <optgroup label="공과대학">
+        <option value="archi">건축공학과</option>
+        <option value="ma">기계공학과</option>
+        <option value="co">컴퓨터공학과</option>
+        <option value="ele">전기공학과</option>
+        <option value="che">화학공학과</option>
+    </optgroup>
+    <optgroup label="인문대">
+        <option value="his">사학과</option>
+        <option value="lan">어문학과</option>
+        <option value="phi">철학과</option>
+    </optgroup>
+</select>
+<input name="traval" list="travallist">
+<datalist id="travallist">
+    <option value="ko">한국</option>
+    <option value="us">미국</option>
+    <option value="eu">영국</option>
+</datalist>
+</form>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 </body>
 </html>
