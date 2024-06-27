@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>선택자 우선순위</title>
+    <style>
+        h1{
+            background-color: aquamarine;
+            color: brown;
+        }
+        #id1{
+            background-color: red;
+        }
+        h1{
+            background-color: beige;
+        }
+        div{
+            width:200px;
+            height: 200px;
+            background-color: teal;
+            color: red;
+        }
+        .class1{
+            background-color: coral;
+            color : white;
+        }
+    </style>
+</head>
+<body>
+<h1>선택자 우선순위</h1>
+<pre>
+    기본적으로 css는 위에서부터 아래(높음)로 적용됨
+    동일한 요소를 다양한 선택자로 css가 부여된 경우 우선순위에 따라 적용됨
+    태그선택자>클래스 선택자>아이디선택자>인라인스타일방식>important방식(높음)
+</pre>
+<div class="class1" id="id1">우선순위 테스트</div>
+</body>
+</html>
