@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72a063f-7111-4526-9e5b-64a3f1daa5d9" name="변경" comment="글자관련 태그">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/03.기타선택자.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/03.기타선택자.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/resources/css/03.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/resources/css/03.style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +113,7 @@
       <workItem from="1719212559779" duration="8250000" />
       <workItem from="1719277372367" duration="16971000" />
       <workItem from="1719365967788" duration="19509000" />
-      <workItem from="1719452156422" duration="627000" />
+      <workItem from="1719452156422" duration="736000" />
     </task>
     <task id="LOCAL-00001" summary="글자관련 태그">
       <option name="closed" value="true" />
