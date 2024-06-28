@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72a063f-7111-4526-9e5b-64a3f1daa5d9" name="변경" comment="글자관련 태그">
-      <change afterPath="$PROJECT_DIR$/CSS/04.선택자우선순위.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/05.글꼴관련스타일.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/06.텍스트관련스타일.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/07.목록관련스타일.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/08.영역관련스타일.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/09.테두리관련스타일.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/05.글꼴관련스타일.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/05.글꼴관련스타일.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +116,7 @@
       <workItem from="1719212559779" duration="8250000" />
       <workItem from="1719277372367" duration="16971000" />
       <workItem from="1719365967788" duration="19509000" />
-      <workItem from="1719452156422" duration="6965000" />
+      <workItem from="1719452156422" duration="13980000" />
     </task>
     <task id="LOCAL-00001" summary="글자관련 태그">
       <option name="closed" value="true" />
