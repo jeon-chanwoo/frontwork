@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72a063f-7111-4526-9e5b-64a3f1daa5d9" name="변경" comment="글자관련 태그">
+      <change afterPath="$PROJECT_DIR$/CSS/10.1.테이블연습문제.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/10.테이블관련스타일.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/11.배경관련스타일.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/12.요소배치스타일.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/13.배치관련스타일.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/resources/css/11.style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/resources/css/13.style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/09.테두리관련스타일.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/09.테두리관련스타일.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +119,7 @@
       <workItem from="1719212559779" duration="8250000" />
       <workItem from="1719277372367" duration="16971000" />
       <workItem from="1719365967788" duration="19509000" />
-      <workItem from="1719452156422" duration="16025000" />
+      <workItem from="1719452156422" duration="17608000" />
     </task>
     <task id="LOCAL-00001" summary="글자관련 태그">
       <option name="closed" value="true" />
