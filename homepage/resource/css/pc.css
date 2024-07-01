@@ -1,0 +1,60 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: pink;
+    border : 1px solid;
+}
+header{    height: 400px;}
+#loge{
+    float: left;
+    height: 40px;
+    margin : 5px 0;
+}
+header>form{
+    float: right;
+    margin-top : 11px;
+}
+#titleImg{
+    clear:both;
+    height:300px;
+    width: 100%;
+}
+.navi{
+    background-color: black;
+    width: 1000px;
+    height:60px;
+}
+
+.navi a{
+    display : inline-block;
+    height:60px;
+    width:245px;
+    line-height: 60px;
+    color:white;
+    text-align: center;
+}
+
+.navi a:link, .navi a:visited{color:yellow;}
+.navi a:hover .navi a:focus{color:yellow;text-shadow: 2px 2px 2px black;}
+.navi a:active{color : red;}
+
+section{
+    float: left;
+    width: 650px;
+
+}
+
+aside{
+    float: right;
+    width: 345px;
+
+}
+
+aside img{
+    width : 345px;
+    margin: 2px 0;
+}
+
+footer{
+    clear : both;
+}
