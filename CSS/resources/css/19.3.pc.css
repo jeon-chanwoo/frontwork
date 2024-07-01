@@ -7,14 +7,14 @@ header{
     line-height: 150px;
 }
 section{
-    float: left;
+    float: right;
     height: 400px;
     background-color: cornsilk;
     width : 73%;
 }
 
 aside{
-    float: right;
+    float: left;
     width : 25%;
     height: 400px;
     background-color: yellowgreen;

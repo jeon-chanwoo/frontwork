@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72a063f-7111-4526-9e5b-64a3f1daa5d9" name="변경" comment="글자관련 태그">
-      <change afterPath="$PROJECT_DIR$/CSS/17.고정_가변_layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/18.flex_Ex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/19.반응형웹.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/resources/css/17.1style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/resources/css/17.2.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/resources/css/18.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/resources/css/19.0.common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/resources/css/19.1.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/resources/css/19.2.tablet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/resources/css/19.3.pc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/resources/css/19.3.pc.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/resources/css/19.3.pc.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +113,7 @@
       <workItem from="1719277372367" duration="16971000" />
       <workItem from="1719365967788" duration="19509000" />
       <workItem from="1719452156422" duration="21289000" />
-      <workItem from="1719795713748" duration="7725000" />
+      <workItem from="1719795713748" duration="7828000" />
     </task>
     <task id="LOCAL-00001" summary="글자관련 태그">
       <option name="closed" value="true" />
