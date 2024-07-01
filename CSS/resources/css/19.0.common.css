@@ -1,0 +1,18 @@
+header{
+    background-color: darkorange;
+    text-align: center;
+
+}
+header>h1{
+    color : white;
+}
+section, aside{
+    padding : 1px;
+}
+
+footer{
+    background-color: blue;
+    text-align: center;
+    color : white;
+    padding : 1px;
+}
