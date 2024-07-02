@@ -1,0 +1,72 @@
+/* 전체 */
+body {
+    margin: 0 auto;
+}
+
+/* header */
+header { text-align: center;
+
+margin-bottom: 5px;
+}
+#logo {
+    margin-top: 5px;
+}
+#login{
+    margin-top: 5px;
+}
+
+#titleImg {
+    display: none;
+}
+
+/* nav */
+.navi {
+    height: 200px;
+    background-color: black;
+}
+.navi a {
+    display: block;
+    height: 50px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid;
+}
+.navi a:link, .navi a:visited { color: white; }
+.navi a:hover, .navi a:focus { color: yellow; }
+.navi a:active { color: red; }
+
+/* main-content */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+/* 본문 */
+section {
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+/* aside */
+
+aside img {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+/* footer */
+footer {
+    clear: both;
+    height: 110px;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 0.8em;
+    background-color: rgb(0, 0, 64);
+    color: white;
+    text-align: center;
+}
