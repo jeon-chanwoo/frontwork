@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .area{
+            border: 1px solid;
+            width: 300px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+<h1>html 요소에 접근하기(해당 요소 객체 가져오기)</h1>
+<h3>1)아이디를 이용해 가져오기</h3>
+<div class = "area" id="area1"></div>
+<button onclick="accessId();">아이디로 접근</button>
+<script>
+    function accessId(){
+        var area1 = document.getElementById("area1");
+        area1.innerHTML="아이디로 접근 성공<br>";
+        area1.style.backgroundColor = "yellow";
+        area1.style.color = "red";
+        area1.style.width = "200px";
+        area1.style.height="200px";
+    }
+</script>
+<br><br>
+<fieldset>
+    <legend>range</legend>
+    <!--oninput : input에 값이 들어오는 이벤트 발생하면 호출-->
+    <input type="range" name="score" min="0" max="100" value="0"
+    oninput="document.getElementById('score').innerHTML=this.value">
+    <span id="score">0</span>
+</fieldset>
+
+<br><br>
+<div class="area" id="area2" style="background-color: red"></div>
+<button onclick="changeColor();">클릭시 색 변경</button>
+<script>
+    function changeColor(){
+        var area2=document.getElementById("area2");
+        if(area2.style.backgroundColor=="red"){
+            area2.style.backgroundColor="blue";
+        }else{
+            area2.style.backgroundColor="red";
+        }
+    }
+</script>
+<br><br>
+<h3>2) 태그명을 이용해서 가져오기</h3>
+<ul>
+    <li>목록1</li>
+    <li>목록2</li>
+    <li>목록3</li>
+    <li>목록4</li>
+    <li>목록5</li>
+</ul>
+<button onclick="accessTagName();">태그명으로 접근</button>
+<script>
+    function accessTagName(){
+        //태그명으로 요소를 가져올때 document.getelementbyTagName("태그명")=>선택된 요소 객체들이 배열에 담겨서 반환된다.
+        var list = document.getElementsByTagName("li");
+        console.log(list);
+        console.log(list.length);
+        list[0].innerHTML="바뀐값";
+
+        var blueColor = 50;
+        for(var i=0;i<list.length;i++){
+            list[i].innerHTML="안녕"+(i+1);
+            list[i].style.backgroundColor="rgb(255,255,"+blueColor*i+")";
+        }
+    }
+</script>
+<br><br>
+<h3>3) name을 이용해서 가져오기</h3>
+<form action="">
+    <fieldset>
+        <legend>취미</legend>
+        <input type="checkbox" name="hobby" value="game" id="game">
+        <label for="game">게임</label>
+        <input type="checkbox" name="hobby" value="movie" id="movie">
+        <label for="movie">영화</label>
+        <input type="checkbox" name="hobby" value="book" id="book">
+        <label for="book">책</label>
+        <input type="checkbox" name="hobby" value="sport" id="sport">
+        <label for="sport">운동</label>
+
+    </fieldset>
+</form>
+<br>
+<div class="area" id = "area3"></div>
+<button onclick="accessName();">name으로 접근</button>
+<script>
+    function accessName(){
+        var hobby = document.getElementsByName("hobby");
+        console.log(hobby);
+
+
+        var area3 = document.getElementById("area3");
+        area3.innerHTML="";
+        for(var i=0; i<hobby.length;i++){
+            if(hobby[i].checked){
+                area3.innerHTML+=hobby[i].value+"<br>";
+            }
+        }
+    }
+</script>
+
+</body>
+</html>
