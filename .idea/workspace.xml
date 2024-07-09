@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72a063f-7111-4526-9e5b-64a3f1daa5d9" name="변경" comment="글자관련 태그">
-      <change afterPath="$PROJECT_DIR$/javascript/11.분해할당.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/12.window용 객체.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/13.이벤트.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/14.정규표현식.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +118,7 @@
       <workItem from="1719452156422" duration="21289000" />
       <workItem from="1719795713748" duration="14738000" />
       <workItem from="1719882470035" duration="20660000" />
-      <workItem from="1719973310931" duration="35604000" />
+      <workItem from="1719973310931" duration="36365000" />
     </task>
     <task id="LOCAL-00001" summary="글자관련 태그">
       <option name="closed" value="true" />
