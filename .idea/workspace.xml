@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72a063f-7111-4526-9e5b-64a3f1daa5d9" name="변경" comment="글자관련 태그">
-      <change afterPath="$PROJECT_DIR$/javascript/15.정규표현식_문제.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/resources/CSS/회원가입.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/resources/js/15.userScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JQuery/01.개요.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JQuery/02.요소선택.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/14.정규표현식.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/14.정규표현식.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -124,7 +121,7 @@
       <workItem from="1719795713748" duration="14738000" />
       <workItem from="1719882470035" duration="20660000" />
       <workItem from="1719973310931" duration="36365000" />
-      <workItem from="1720486858111" duration="14938000" />
+      <workItem from="1720486858111" duration="20170000" />
     </task>
     <task id="LOCAL-00001" summary="글자관련 태그">
       <option name="closed" value="true" />
