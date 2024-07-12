@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72a063f-7111-4526-9e5b-64a3f1daa5d9" name="변경" comment="글자관련 태그">
-      <change afterPath="$PROJECT_DIR$/JQuery/02.요소선택(요소선택).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/03.요소선택(기본이외선택자).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/04.요소선택(필터링선택자).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/05.요소탐색(순회)메소드 조상.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/06.요소탐색(순회)메소드 자손후손.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/07.요소탐색(순회)메소드 동위.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/08.content영역관련메소드.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/09.요소생성및제거메소드.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/10.추가적인메소드.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/11.연습문제.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/12.부트스트랩.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/13.이벤트.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/14.ani_hide_show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/15.ani_fadeIn_fadeOut.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/16.ani_slideDown_slideUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/17.ani_nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JQuery/easing종류.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage2/resource/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage2/resource/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JQuery/02.요소선택.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -138,7 +122,7 @@
       <workItem from="1719882470035" duration="20660000" />
       <workItem from="1719973310931" duration="36365000" />
       <workItem from="1720486858111" duration="20170000" />
-      <workItem from="1720746428068" duration="12873000" />
+      <workItem from="1720746428068" duration="14021000" />
     </task>
     <task id="LOCAL-00001" summary="글자관련 태그">
       <option name="closed" value="true" />
