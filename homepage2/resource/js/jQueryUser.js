@@ -10,27 +10,14 @@ $(() => {
     */
 
     // 각각 내려오기
-    $('.nav>li').mouseover(function() {
-        $(this).children('.submenu').stop().slideDown();
+    $('.nav1>li').mouseover(function() {
+        $(this).children('.submenu1').stop().slideDown();
     })
-    $('.nav>li').mouseout(function() {
-        $(this).children('.submenu').stop().slideUp();
+    $('.nav1>li').mouseout(function() {
+        $(this).children('.submenu1').stop().slideUp();
     })
 
     // 이미지 fadeIn_Out 적용
-    setInterval(slide, 2000);
-    let x = $('#imgslide>img');
-    let y = 3;
-
-    function slide() {
-        y--;
-        if(y == 0) {
-            x.fadeIn();
-            y=3;
-        } else {
-            x.eq(y).fadeOut();
-        }
-    }
 
     /*
     let x = $('#imgslide>img');

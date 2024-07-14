@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72a063f-7111-4526-9e5b-64a3f1daa5d9" name="변경" comment="글자관련 태그">
-      <change afterPath="$PROJECT_DIR$/homepage2/resource/js/jQueryUser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage2/resource/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/homepage2/resource/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage2/resource/js/jQueryUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/homepage2/resource/js/jQueryUser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage2/resource/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage2/resource/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,12 +33,12 @@
     &quot;assignee&quot;: &quot;jeon-chanwoo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/jeon-chanwoo/frontwork.git&quot;,
-    &quot;accountId&quot;: &quot;dbb6cefb-24e7-4ddc-8126-0823135dbf10&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jeon-chanwoo/frontwork.git",
+    "accountId": "ced6ac26-3194-42c2-9dac-e45e2474218c"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -46,6 +46,7 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2iJXvbkbSgZD38kRCFunUBWvqYN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,7 +59,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/JCW/frontwork/homepage2/resource/js",
+    "last_opened_file_path": "C:/Users/cw1142/IdeaProjects/frontwork",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -79,12 +80,17 @@
   </component>
   <component name="RunAnythingCache">
     <myKeys>
+      <visibility group="Gradle Tasks" flag="true" />
       <visibility group="Gradle 작업" flag="true" />
       <visibility group="Grunt" flag="true" />
       <visibility group="Gulp" flag="true" />
+      <visibility group="HTTP Requests" flag="true" />
       <visibility group="HTTP 요청" flag="true" />
       <visibility group="Maven Goal" flag="true" />
+      <visibility group="Maven Goals" flag="true" />
       <visibility group="Node.js" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
       <visibility group="npm" flag="true" />
       <visibility group="yarn" flag="true" />
       <visibility group="실행 구성" flag="true" />
@@ -95,11 +101,6 @@
     <configuration name="01.처음시작.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/frontwork/html5/01.처음시작.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript 디버그.01.처음시작.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -127,6 +128,7 @@
       <workItem from="1719973310931" duration="36365000" />
       <workItem from="1720486858111" duration="20170000" />
       <workItem from="1720746428068" duration="16907000" />
+      <workItem from="1720923526697" duration="12173000" />
     </task>
     <task id="LOCAL-00001" summary="글자관련 태그">
       <option name="closed" value="true" />

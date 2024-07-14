@@ -1,15 +1,145 @@
-* {margin: 0 auto; padding: 0; list-style: none; text-decoration: none; color: black;}
-a {color: inherit;}
-a:hover {color: inherit;}
-body {width:1000px;}
-header {height: 100px;}
-header>div {float: left;}
-header>div>img {width: 100px;height: 100px; margin-top: 25px;}
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;}
+a {
+    color: inherit;
+}
+a:hover {
+    color: inherit;
+}
 
-header>nav{float: right; margin-top: 25px; padding: 10px;}
-.nav>li {float: left; width: 200px; text-align: center; position: relative; padding: 5px 0;}
-.nav>li:hover {background-color: rgb(4, 4, 81); color:white;}
-/* .submenu {display: none;} */
-.submenu {display: none; position: absolute; width: 100%; margin-top: 5px; z-index: 3;}
-.submenu>li {padding: 5px 0; background-color: rgba(255,255,255,0.7);}
-.submenu>li:hover {background-color: rgba(4, 4, 81, 0.3); color: white;}
+body {
+    width:100%;
+}
+
+header {
+    height: 100px;
+}
+header>div {
+    text-align: center;
+}
+header>div>img {
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+}
+
+header>nav{
+    float: right;
+    margin-top: 25px;
+    padding: 10px;
+}
+.nav1>li {float: left;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+.nav1>li:hover {
+    background-color: rgb(4, 4, 81);
+    color:white;
+}
+
+.submenu1 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    margin-top: 5px;
+    flex-direction: column;
+}
+.submenu1>li:hover {
+    width: 100%;
+    background-color: rgba(4, 4, 81, 0.3);
+    color: white;
+}
+.nav1 > li:hover .submenu1 {
+    display: flex; /* 호버 시 서브메뉴 보이기 */
+    z-index: 3;
+    background-color: rgba(255,255,255,0.7);
+}
+
+nav{
+    margin-top: 25px;
+}
+
+.nav>li {
+    float: initial;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    padding: 5px 0;
+}
+
+.nav > li:hover .submenu {
+    display: flex; /* 호버 시 서브메뉴 보이기 */
+}
+
+.nav>li:nth-child(1) {
+    margin-top: 100px;
+    background-image: url('../img/upperbody.JPG');
+    /* 다양한 배경 이미지 설정 옵션 */
+    background-size: cover; /* 배경 이미지 크기 조정 */
+    background-position: center; /* 배경 이미지 위치 설정 */
+    background-repeat: no-repeat; /* 배경 이미지 반복 설정 */
+}
+
+.nav > li:nth-child(2) {
+    background-image: url('../img/lowerbody.JPG');
+    /* 다양한 배경 이미지 설정 옵션 */
+    background-size: cover; /* 배경 이미지 크기 조정 */
+    background-position: center; /* 배경 이미지 위치 설정 */
+    background-repeat: no-repeat; /* 배경 이미지 반복 설정 */
+}
+
+.submenu {
+    display: none; /* 기본적으로 서브메뉴 숨김 */
+    position: absolute;
+    width: 100%;
+    margin-top: -5px;
+    z-index: 3;
+    flex-wrap: wrap;
+    justify-content: space-around; /* 내부 요소들을 여백을 기준으로 가로로 배치 */
+}
+
+.submenu > li {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: calc(50%); /* 너비를 반씩 나누고 내부 여백을 고려하여 설정 */
+    box-sizing: border-box; /* 패딩과 테두리를 포함한 전체 너비 설정 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+.submenu > li:hover {
+    background-color: rgba(4, 4, 81, 0.3);
+    color: white;
+}
+
+.submenu > li a {
+    text-decoration: none; /* 링크 밑줄 제거 */
+    color: inherit; /* 링크 색상 상속 */
+}
+#submenu1 > li {
+    padding: 5.2vh; /* 적절한 내부 여백 설정 */
+}
+#submenu2 > li {
+    padding: 9vh; /* 적절한 내부 여백 설정 */
+}
+
+footer{
+    font-size: 0.9em;
+    height: 80px;
+    padding: 20px 20px;
+    background-color: #4298cc;
+    overflow: hidden;
+}
+footer span{
+    color:white;
+}
+footer p{
+    margin-top: 5px;
+    color:rgb(235, 235, 235);
+}
